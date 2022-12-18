@@ -1,11 +1,75 @@
 * {
-    background-color: gainsboro;
+   
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+
+
+}
+
+body {
+    background-color: gainsboro;
+    height: 200vh;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    width: 100vw;
+    background-color: orange;
+    height: 200px;
+    position: fixed;
+    top: 0; 
+    margin: 0 0 5vh 0;
+
+}
+
+
+header h1 {
+    position: relative;
+    background-color: transparent;
+}
+header h1 strong {
+    background-color: transparent;
+
+}
+
+.links a {
+    cursor: pointer;
+    margin: 0 3vw;
+}
+
+.main {
+    margin-top: 300px;
 }
 
 img {
     border: 10px solid black;
 }
-  
+
+.blue {
+    color: blue;
+
+}
+
+.green {
+    color: green;
+
+}
+
+#fname {
+    color: red;
+
+}
+
+footer {
+   position: fixed;
+   bottom: 0; 
+   width: 100vw;
+   height: 8vh;
+   background-color: red;
+   padding-top: 3vh;   
+
+
+}
